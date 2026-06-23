@@ -431,7 +431,7 @@ li.has-dropdown:focus-within .dropdown{
 }
 
 @media (max-width:980px){
-  .hero-inner{grid-template-columns:1fr; padding-top:54px;}
+  .hero-inner{grid-template-columns:1fr; padding:15px;}
   .hero-art{order:-1; max-width:380px; margin:0 auto 30px;}
   .hero-badge{left:8px;}
   .hero-tag-top{right:8px;}
