@@ -1,0 +1,18 @@
+<svg width="220" height="64" viewBox="0 0 220 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3DAA5C"/>
+      <stop offset="100%" stop-color="#5B2A86"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark: open lotus / blooming petals = grace, growth, new chapter of care -->
+  <g transform="translate(2,2)">
+    <circle cx="30" cy="30" r="30" fill="#5B2A86" opacity="0.08"/>
+    <path d="M30 46C30 46 30 30 30 30C30 30 18 33 14 24C24 22 28 27 30 30" fill="#3DAA5C"/>
+    <path d="M30 46C30 46 30 30 30 30C30 30 42 33 46 24C36 22 32 27 30 30" fill="#5B2A86"/>
+    <path d="M30 46C30 46 30 26 30 26C30 26 22 18 28 10C34 18 30 26 30 26" fill="url(#g2)"/>
+    <circle cx="30" cy="30" r="3.2" fill="#1A1620"/>
+  </g>
+  <text x="74" y="30" font-family="Fraunces, Georgia, serif" font-size="23" font-weight="700" fill="#1A1620">Kirpa</text>
+  <text x="74" y="50" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#5B2A86">HOME CARE</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gMark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B2A86"/>
+      <stop offset="100%" stop-color="#3DAA5C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="30" cy="30" r="30" fill="#F1E9F8"/>
+  <path d="M30 48C30 48 13.5 38.2 13.5 26.2C13.5 19.3 19 14.7 25 16.6C27.3 17.3 29.1 19 30 21.2C30.9 19 32.7 17.3 35 16.6C41 14.7 46.5 19.3 46.5 26.2C46.5 38.2 30 48 30 48Z" fill="url(#gMark)"/>
+  <path d="M15.5 36.5C15.5 36.5 18.2 42 24.5 44.8C20.8 39.2 19 33.8 19.8 29.2" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.5"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="220" height="64" viewBox="0 0 220 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B2A86"/>
+      <stop offset="100%" stop-color="#3DAA5C"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark: cupped hand cradling a heart/leaf -->
+  <g transform="translate(2,2)">
+    <circle cx="30" cy="30" r="30" fill="url(#g1)" opacity="0.12"/>
+    <path d="M30 50C30 50 12 39.5 12 26.5C12 19 18 14 24.5 16C27 16.8 29 18.6 30 21C31 18.6 33 16.8 35.5 16C42 14 48 19 48 26.5C48 39.5 30 50 30 50Z" fill="url(#g1)"/>
+    <path d="M14 38C14 38 17 44 24 47C20 41 18 35 19 30" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.55"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="74" y="30" font-family="Fraunces, Georgia, serif" font-size="23" font-weight="700" fill="#1A1620">Kirpa</text>
+  <text x="74" y="50" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#3DAA5C">HOME CARE</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="220" height="64" viewBox="0 0 220 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B2A86"/>
+      <stop offset="100%" stop-color="#3B1B5C"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark: rounded shield (trust/protection) with K monogram + green pulse/heartbeat accent -->
+  <g transform="translate(2,2)">
+    <path d="M30 0L56 9V28C56 44 44 54 30 60C16 54 4 44 4 28V9L30 0Z" fill="url(#g3)"/>
+    <path d="M19 33L24 25L28 38L32 22L36 33H43" stroke="#4FBE6E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <text x="74" y="30" font-family="Fraunces, Georgia, serif" font-size="23" font-weight="700" fill="#1A1620">Kirpa</text>
+  <text x="74" y="50" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#3DAA5C">HOME CARE</text>
+</svg>
