@@ -339,6 +339,9 @@ li.has-dropdown:focus-within .dropdown{
   align-items:center;
   padding:96px 0 80px;
 }
+.hero-copy {
+   padding: 15px;
+}
 .hero-copy .eyebrow{color:var(--green-500);}
 .hero-copy .eyebrow::before{background:var(--green-500);}
 .hero-copy h1{
