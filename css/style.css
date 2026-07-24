@@ -82,9 +82,9 @@ h1,h2,h3,h4,.font-display{
 }
 
 .container{
-  max-width:var(--maxw);
+  /* max-width:var(--maxw); */
   margin:0 auto;
-  padding:0 24px;
+  padding:0 24px !important;
 }
 
 section{padding:88px 0;}
