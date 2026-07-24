@@ -200,6 +200,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   gap:11px;
 }
 .brand-mark{width:300px;height:auto;flex-shrink:0;}
+@media (max-width:680px){
+.brand-mark{width:180px;height:auto;flex-shrink:0;}
+}
 .brand-text{display:flex; flex-direction:column; line-height:1.1;}
 .brand-text .name{
   font-family:'Fraunces',serif;
