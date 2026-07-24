@@ -196,7 +196,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   align-items:center;
   gap:11px;
 }
-.brand-mark{width:46px;height:46px;flex-shrink:0;}
+.brand-mark{width:180px;height:auto;flex-shrink:0;}
 .brand-text{display:flex; flex-direction:column; line-height:1.1;}
 .brand-text .name{
   font-family:'Fraunces',serif;
