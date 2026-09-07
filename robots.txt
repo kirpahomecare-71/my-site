@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow system directories
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://www.kirpahomecare.ca/sitemap.xml
