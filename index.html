@@ -4,17 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kirpa Home Care | Trusted In-Home Senior Care in Edmonton, AB</title>
+  <title>Kirpa Home Care | In-Home Senior Care in Edmonton & Surrounding Areas</title>
   <meta name="description"
     content="Kirpa Home Care provides compassionate, professional in-home senior care across Edmonton and surrounding areas — personal care, palliative care, specialized nursing and companionship. Call +1 (780) 340-1907.">
   <link rel="canonical" href="https://www.kirpahomecare.ca/">
+
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Kirpa Home Care | Trusted In-Home Senior Care in Edmonton, AB">
+  <meta property="og:site_name" content="Kirpa Home Care">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="Kirpa Home Care | In-Home Senior Care in Edmonton & Surrounding Areas">
   <meta property="og:description"
-    content="Compassionate, professional in-home senior care across Edmonton and surrounding areas.">
+    content="Compassionate, professional in-home senior care across Edmonton and surrounding areas — personal care, respite, palliative care, and companionship.">
   <meta property="og:url" content="https://www.kirpahomecare.ca/">
-  <meta property="og:image" content="images/og-image.jpg">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://www.kirpahomecare.ca/images/Main-Logo2.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kirpa Home Care | In-Home Senior Care in Edmonton & Surrounding Areas">
+  <meta name="twitter:description"
+    content="Compassionate, professional in-home senior care across Edmonton and surrounding areas — personal care, respite, palliative care, and companionship.">
+  <meta name="twitter:image" content="https://www.kirpahomecare.ca/images/Main-Logo2.jpg">
+
+  <!-- Google Search Console Verification Placeholder:
+       Uncomment and replace YOUR_VERIFICATION_CODE when ready
+       <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE"> -->
+
+  <!-- Google Analytics 4 (GA4) Placeholder:
+       Uncomment and replace G-XXXXXXXXXX with your Google Analytics Measurement ID
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+       <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-XXXXXXXXXX');
+       </script> -->
+
   <link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,25 +47,126 @@
     href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org Structured Data: Service Area Business & Website -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HomeHealthCareService",
-  "name": "Kirpa Home Care",
-  "image": "images/og-image.jpg",
-  "telephone": "+1(780) 340-1907",
-  "url": "https://www.kirpahomecare.ca/",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Edmonton",
-    "addressRegion": "AB",
-    "addressCountry": "CA"
-  },
-  "areaServed": ["Edmonton","Spruce Grove","Leduc","Sherwood Park","St. Albert","Stony Plain","Beaumont"],
-  "priceRange": "$$",
-  "openingHours": "Mo-Su 00:00-23:59"
-}
-</script>
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.kirpahomecare.ca/#website",
+        "url": "https://www.kirpahomecare.ca/",
+        "name": "Kirpa Home Care",
+        "description": "Compassionate, professional in-home senior care across Edmonton and surrounding areas.",
+        "inLanguage": "en-CA"
+      },
+      {
+        "@type": ["HomeHealthCareService", "LocalBusiness"],
+        "@id": "https://www.kirpahomecare.ca/#business",
+        "name": "Kirpa Home Care",
+        "image": "https://www.kirpahomecare.ca/images/Main-Logo2.jpg",
+        "logo": "https://www.kirpahomecare.ca/images/Main-Logo2.jpg",
+        "telephone": "+1-780-340-1907",
+        "email": "Kirpahomecare@gmail.com",
+        "url": "https://www.kirpahomecare.ca/",
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Edmonton",
+          "addressRegion": "AB",
+          "addressCountry": "CA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "53.5461",
+          "longitude": "-113.4938"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Edmonton"
+          },
+          {
+            "@type": "City",
+            "name": "Sherwood Park"
+          },
+          {
+            "@type": "City",
+            "name": "St. Albert"
+          },
+          {
+            "@type": "City",
+            "name": "Spruce Grove"
+          },
+          {
+            "@type": "City",
+            "name": "Leduc"
+          },
+          {
+            "@type": "City",
+            "name": "Stony Plain"
+          },
+          {
+            "@type": "City",
+            "name": "Beaumont"
+          },
+          {
+            "@type": "City",
+            "name": "Fort Saskatchewan"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "In-Home Senior Care Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Personal Care",
+                "url": "https://www.kirpahomecare.ca/service-personal-care.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Companionship Care",
+                "url": "https://www.kirpahomecare.ca/service-companionship.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Respite Care",
+                "url": "https://www.kirpahomecare.ca/service-respite-care.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Palliative Care",
+                "url": "https://www.kirpahomecare.ca/service-palliative-care.html"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Funding & Subsidy Support",
+                "url": "https://www.kirpahomecare.ca/service-funding-support.html"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -195,14 +321,14 @@
         </div>
         <div class="hero-stats">
           <div class="stat"><strong>24/7</strong><span>Care &amp; support availability</span></div>
-          <div class="stat"><strong>4</strong><span>Languages spoken by our team</span></div>
+          <div class="stat"><strong>5</strong><span>Languages spoken by our team</span></div>
           <div class="stat"><strong>100%</strong><span>Personalized care plans</span></div>
         </div>
       </div>
 
       <div class="hero-art">
         <div class="frame">
-          <img src="/images/Support-for-the-elderly.jpg" width="900" height="auto"
+          <img src="images/Support-for-the-elderly.jpg" width="900" height="auto"
             alt="Caregiver supporting a senior client at home in Edmonton">
         </div>
         <div class="hero-tag-top">Trusted across Edmonton since day one</div>
